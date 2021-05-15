@@ -21,11 +21,9 @@ public class Road extends Barrier{
 
         if (getLength() <= actions.getRunDistance()) {
             System.out.println("Пробежал");
-
             return true;
         } else {
             System.out.println("Не смог пробежать");
-
             return false;
         }
     }
